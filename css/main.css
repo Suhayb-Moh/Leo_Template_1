@@ -10,4 +10,47 @@ body {
   font-family: "Work Sans", sans-serif;
 }
 
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+  height: 30vh;
+}
+
+/* Small Screens */
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+/* Medium Screens */
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+/* Large Screens */
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
 /* End Global Rules */
+/* Start Header */
+.header {
+  padding: 20px;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .logo {
+}
+/* End Header */
